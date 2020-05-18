@@ -6,15 +6,6 @@ else:
     print('I hope the rest of your day is good.')
 '''
 
-# pengecekan dan perubahan string
-'''
-print('Hello'.upper())
-print('Hello'.upper().lower())
-print('Hello'.upper().lower().upper())
-print('HELLO'.lower())
-print('HELLO'.lower().islower())
-'''
-
 # metode isX dari string untuk pengecekan
 '''
 print('hello'.isalpha()) # mengembalikan nilai true apabila string berisi hanya huruf dan tidak kosong
