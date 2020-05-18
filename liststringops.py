@@ -90,3 +90,17 @@ a, b = b, a
 print(a)
 print(b)
 '''
+
+# Sort
+x = [2, 5, 3.14, 1, -7]
+x.sort()    # Mengurutkan dari nilai terkkecil ke terbesar
+print(x)
+
+print('\n')
+y = ['ants', 'cats', 'dogs', 'badgers', 'elephants']
+y.sort()    # Mengurutkan huruf pertama dari awal asc
+print(y)
+
+print('\n')
+y.sort(reverse=True)    # Mengurutkan huruf pertama dari akhir desc
+print(y)
