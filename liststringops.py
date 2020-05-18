@@ -104,3 +104,8 @@ print(y)
 print('\n')
 y.sort(reverse=True)    # Mengurutkan huruf pertama dari akhir desc
 print(y)
+
+print('\n')
+m = ['Alice', 'ants', 'Bob', 'badgers', 'Carol', 'cats']
+m.sort()    # Huruf uppercase akan diurutkan terlebih dahulu
+print(m)
