@@ -92,6 +92,7 @@ print(b)
 '''
 
 # Sort
+'''
 x = [2, 5, 3.14, 1, -7]
 x.sort()    # Mengurutkan dari nilai terkkecil ke terbesar
 print(x)
@@ -109,3 +110,24 @@ print('\n')
 m = ['Alice', 'ants', 'Bob', 'badgers', 'Carol', 'cats']
 m.sort()    # Huruf uppercase akan diurutkan terlebih dahulu
 print(m)
+
+print('\n')
+spam = ['a', 'z', 'A', 'Z']
+spam.sort(key=str.lower)    # Mengurutkan berdasar huruf tanpa memperhatikan upper case
+print(spam)
+'''
+
+# Manipulasi String
+'''
+print('Hello there! How are you? i\'m doing fine.') # Penggunaan i\'m agar ' tidak terbaca sebagai sintaks
+print('Hello there!\nHow are you?\ni\'m doing fine.')
+
+print('\n') # Penggunaan """ sebagai multi line indentifier
+multi_line = """Hello there!    
+How are you?
+i'm fine."""
+print(multi_line)
+'''
+
+# Raw String
+print(r'Hello there! How are you? i\'m doing fine.') # Identifier i\'m Terbaca
