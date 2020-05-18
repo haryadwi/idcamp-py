@@ -15,3 +15,4 @@ print(len(x))  # menghitung jumlah string pada x
 
 # Penggabungan dan replikasi pada list
 print([1, 2, 3] + ['A', 'B', 'C'])
+print(['X', 'Y', 'Z'] * 3)
