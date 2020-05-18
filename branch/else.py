@@ -8,3 +8,11 @@ else:
   print("Discount ", discount)
 
 print("Net Payable: ", amount - discount)
+
+print('\n')
+angka = int(input("Masukan Angka: "))
+
+if angka % 2 == 0:
+  print("Merupakan Bilangan Genap.")
+else:
+  print("Merupakan Bilangan Ganjil")
