@@ -1,6 +1,6 @@
 for letter in 'Python':
     if letter == 'h':
-        break
+        break # perlungan berhenti sebelum huruf h
     print("Current letter: {}".format(letter))
 
 print('\n')
