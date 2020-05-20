@@ -24,6 +24,7 @@ except (FileNotFoundError) as em:
 
 print('\n')
 
+# Multi Exception Handling
 d = {'ratarata': '10.0'}
 try:
     print('rata-rata: {}'.format(d['rata_rata']))
