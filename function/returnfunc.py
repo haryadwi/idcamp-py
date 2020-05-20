@@ -6,3 +6,14 @@ def sum(arg1, arg2):
 # Memanggil Fungsi
 total = sum(10, 20)
 print("Outside the function: {}".format(total))
+
+print('\n')
+
+def kuadrat(x):
+  return x*x
+
+a = 10
+k = kuadrat(a)
+
+print("Nilai kuadrat dari {} adalah: {}".format(a, k))
+print(k)
