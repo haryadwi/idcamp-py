@@ -44,3 +44,9 @@ try:
 except (ValueError, TypeError) as e:
     print('penangan kesalahan: {}'.format(e))
 
+print('\n')
+
+# Membuat pengecualian
+d = {'rata-rata': '10.0' }
+if 'total' not in d:
+    raise KeyError("Harus memiliki total")
