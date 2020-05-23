@@ -24,4 +24,3 @@ print(a, '\n')
 
 b = kk.tambah_angka(2, 3) # Memiliki objek tambah angka fitur warisan dari Kalkulatot sederhana
 print(b)
-
